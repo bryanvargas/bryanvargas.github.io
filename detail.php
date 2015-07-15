@@ -17,11 +17,11 @@
     <![endif]--> 
   </head>
   <body>
-    <h1>Pagina Principal del Laboratorio</h1>
+    <?php include 'inc/header.php'; ?>
 
 
 
-
+    <?php? include 'inc/footer.php'; >
     <!--include de los repositorios de bootstrap-->
     <?php include 'inc/footer_common.php' ?>   
   </body>

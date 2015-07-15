@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Pagina Principal del Laboratorio</title>
-
-    <?php include 'inc/head_common.php' ?>  
+ 
+    <?php include 'inc/head_common.php'; ?>  
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,11 +17,11 @@
     <![endif]--> 
   </head>
   <body>
-    <h1>Pagina Principal del Laboratorio</h1>
+    <?php include 'inc/header.php'; ?>
+    
 
 
-
-
+    <?php include 'inc/footer.php'; ?>
     <!--include de los repositorios de bootstrap-->
     <?php include 'inc/footer_common.php' ?>   
   </body>
