@@ -167,7 +167,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-5">
-              <h3>necesitas alojamiento?</h3>
+              <h3>Necesitas alojamiento?</h3>
               <div class="hotel">
                 <h4>Hitek Navbar 4*</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur 
@@ -184,9 +184,55 @@
           </div><!--fin de row-->
         </div><!--fin de container-->
       </section><!--finde location-info-->
+      <section id="faq">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>Preguntas frecuentes</h3>
+            </div><!--fin de col-xs-12-->
+            <!--(div.col-xs-4>(h4+p))*4-->
+            <div class="col-xs-4">
+              <h4>¿Que ocurre si finalmente no puedo acudir?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Ipsa expedita vel impedit assumenda eos dicta ut culpa accu.</p>
+            </div>
+            <div class="col-xs-4">
+              <h4>¿Existen descuento para los primeros registros?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Ratione omnis hic vel, error, reiciendis asperiores sequi 
+              eveniet ipsam mollitia esse. Doloremque blanditiis consectetur 
+              facere voluptas eos, repellat qui facilis nesciunt.</p>
+            </div>
+            <div class="col-xs-4">
+              <h4>¿Por que no todos los workshops tienen el mismo precio</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Ratione omnis hic vel, error, reiciendis asperiores sequi 
+              eveniet ipsam mollitia esse. Doloremque blanditiis consectetur 
+              facere voluptas eos, repellat qui facilis nesciunt.</p>
+            </div>
+            <div class="col-xs-4">
+              <h4>¿Cuando se dara el worshop por confirmado?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Ipsa expedita vel impedit assumenda eos dicta ut culpa accu.</p>
+          </div>
+           <div class="col-xs-4">
+              <h4>¿Con quien he de contactar si tengo algun problema dirante el dia del workshop</h4>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Ratione omnis hic vel, error, reiciendis asperiores sequi 
+              eveniet ipsam mollitia esse. Doloremque blanditiis consectetur 
+              fecha <a href="#">nos puedes contactar aqui.</a></p>
+            </div>
+           <div class="col-xs-4">
+              <h4>¿El formador participara del resto de actividades con los asistentes?</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Ratione omnis hic vel, error, reiciendis asperiores sequi 
+              eveniet ipsam mollitia esse. Doloremque blanditiis consectetur.</p>
+          </div>
+        </div>
+      </section><!--fin de faq-->
     </article>
 
-    <?php include 'inc/footer.php'; ?>
+      <?php include 'inc/footer.php'; ?>
     <!--include de los repositorios de bootstrap-->
     <?php include 'inc/footer_common.php' ?>   
   </body>
