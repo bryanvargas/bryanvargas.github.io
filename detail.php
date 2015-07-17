@@ -162,10 +162,29 @@
           </div><!--fin de row-->
         </div><!--fin de container-->
       </secion>
+      <section id="location-info">
+        <!--mapa google -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-5">
+              <h3>necesitas alojamiento?</h3>
+              <div class="hotel">
+                <h4>Hitek Navbar 4*</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Ullam, voluptate!</p>
+                <a href="#">Consulta disponibilidad</a>
+              </div><!--fin de hotel-->
+              <div class="hotel">
+                <h4>Hotel breadcrumb 3*</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Ullam, voluptate!</p>
+                <a href="#">Consulta disponibilidad</a>
+              </div><!--fin del segundo hotel-->
+            </div><!--fin de col-xs-5-->
+          </div><!--fin de row-->
+        </div><!--fin de container-->
+      </section><!--finde location-info-->
     </article>
-    
-
-
 
     <?php include 'inc/footer.php'; ?>
     <!--include de los repositorios de bootstrap-->
