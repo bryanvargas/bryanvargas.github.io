@@ -162,6 +162,9 @@
           </div><!--fin de row-->
         </div><!--fin de container-->
       </secion>
+      <section class="algo">
+        <h2>pruebas</h2>
+      </section>
     </article>
     
 
