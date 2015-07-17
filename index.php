@@ -19,7 +19,45 @@
   <body>
     <?php include 'inc/header.php'; ?>
     
-
+    <div id="workshop-list">
+      <article id="w1" class="workshop workshop-left">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-8 main-info">
+              <h2>Desarrolla Front-end like a boss aprendiendo Bootstrap 3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">Bryan Vargas</a> y
+              <a href="" class="btn btn-custom">Alejandro Catacata</a>.</p>
+              <a href="detail.php">ME APUNTO</a>
+              <a href="detail.php" class="more-info-link">quiero mas informacion</a>
+            </div><!-fin de main-info-->
+            <div class="col-xs-3 col-xs-offset-1 date-info">
+              <h3 class="highlighted"><strong>W21</strong> 13/14 de abril</h3>
+              <h3 class="highlighted">20 plazas</h3>
+              <h3 class="highlighted">99 $</h3>
+            </div><!--fin de main-info-->
+          </div><!--fin de row-->
+        </div><!--fin de container-->
+      </article>
+      <article id="w2" class="workshop workshop-right">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-3  date-info">
+              <h3 class="highlighted"><strong>W38</strong> 19/20 de abril</h3>
+              <h3 class="highlighted">15 plazas</h3>
+              <h3 class="highlighted">120 $</h3>
+            </div><!--fin de main-info-->
+            <div class="col-xs-8 col-xs-offset-1 main-info">
+              <h2>Desarrolla tus aplicaciones con Adobe Air</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="#">Bryan Vargas</a>
+              <a href="" class="btn btn-custom">Alejandro Catacata</a>. </p>
+              <a href="detail.php" class="more-info-link">quiero mas informacion</a>
+              <a href="detail.php">ME APUNTO</a>              
+            </div><!-fin de main-info-->
+            
+          </div><!--fin de row-->
+        </div><!--fin de container-->
+      </article>
+    </div>
 
     <?php include 'inc/footer.php'; ?>
     <!--include de los repositorios de bootstrap-->
