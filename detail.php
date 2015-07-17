@@ -46,12 +46,12 @@
                 Accusamus, nemo, et. At animi veniam fugiat, ducimus quo
                  autem quaerat! Iusto voluptatibus minima ab beatae eos 
                  nesciunt assumenda eligendi magnam nemo!</p>
-            </section>
+            </section><!--fin de intro-->
             <section id="trainer-list">
               <h3>Los Formadores-</h3>
               <div class="trainer row">
                 <div class="col-xs-4">
-                  <img src="img/bryan_profile.png" alt="Bryan Vargas"></div>
+                  <img src="img/bryan_profile2.png" alt="Bryan Vargas"></div>
                 <div class="col-xs-8">
                   <h4>Bryan Vargas</h4>
                   <p>
@@ -66,7 +66,7 @@
 
               <div class="trainer row">
                 <div class="col-xs-4">
-                  <img src="img/alejandro_profile.png" alt="Bryan Vargas"></div>
+                  <img src="img/alejandro_profile2.png" alt="Bryan Vargas"></div>
                 <div class="col-xs-8">
                   <h4>Bryan Vargas</h4>
                   <p>
@@ -78,18 +78,96 @@
                   <a href="https://github.com/bryanvargas/" class="trainer-link">@brynvargas</a>
                 </div>
               </div>
-            </section>
-          </div>
+            </section><!--fin de trainer-list-->
+          </div><!--fin de col-xs-7-->
           <div class="col-xs-5">
-            
-          </div>
-        </div>
-      </div>
+            <section id="registration">
+              <h3>Registro</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+              Placeat et libero quis recusandae temporibus sunt magni, 
+              beatae obcaecati fugiat officiis reprehenderit corporis.</p>
+              <div id="registration-bagde"></div>
+            </section>   
+            <section id="agenda">
+              <h3>Agenda del Dia</h3>
+              <h4><span>W"!</span> Sabado 15 de septiembre</h4>
+              <dl class="dl-horizontal">
+                <dt>10,00h</dt>
+                <dd>Wprkshop parte 1/4</dd>
+                <dt>11,45h</dt>
+                <dd>Descanso</dd>
+                <dt>12,00h</dt>
+                <dd>Worshop parte 2/4</dd>
+                <dt>14,00h</dt>
+                <dd>Comida</dd>
+                <dt>16,00h</dt>
+                <dd>Workship parte 3/4</dd>
+                <dt>17,45h</dt>
+                <dd>descanso</dd>
+                <dt>18,00h</dt>
+                <dd>Workshop parte 4/4</dd>                
+                <dt>19,30h</dt>
+                <dd>Finworkshop</dd>
+              </dl>
+            </section>         
+          </div><!fin de com-xs-5-->
+        </div><!--fin de row principal-->
+      </div><!--finde container-->
+
+      <secion class="table-of-contents">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3>Indice de contenidos</h3>
+            </div><!--fin de col-xs-12-->
+            <div class="col-xs-4">
+              <h4>1. frameworks Fron-end</h4>
+              <ul>
+                <li>Item indice primero</li>
+                <li>Item indice segundo</li>
+                <li>Item indice tercero</li>
+              </ul>
+              <h4>2. Segundo punto</h4>
+              <ul>
+                <li>Item indice primero</li>
+                <li>Item indice segundo</li>
+                <li>Item indice tercero</li>
+              </ul>
+            </div><!--fin de col-xs-4 primero-->
+            <div class="col-xs-4">
+              <h4>3. tercer punto</h4>
+              <ul>
+                <li>Item indice primero</li>
+                <li>Item indice segundo</li>
+                <li>Item indice tercero</li>
+              </ul>
+              <h4>4. Cuarto punto</h4>
+              <ul>
+                <li>Item indice primero</li>
+                <li>Item indice segundo</li>
+                <li>Item indice tercero</li>
+              </ul>
+            </div><!--fin de col-xs-4 segundo-->
+            <div class="col-xs-4">
+              <h4>5. Quinto punto</h4>
+              <ul>
+                <li>Item indice prmero</li>
+                <li>Item indice segundo</li>
+                <li>Item indice tercero</li>
+                <li>Item indice cuarto</li>
+                <li>Item indice quinto</li>
+                <li>Item indice sexto</li>
+              </ul>
+            </div><!--fin de col.xs.4-->
+          </div><!--fin de row-->
+        </div><!--fin de container-->
+      </secion>
     </article>
+    
 
 
 
-    <?php? include 'inc/footer.php'; >
+    <?php include 'inc/footer.php'; ?>
     <!--include de los repositorios de bootstrap-->
     <?php include 'inc/footer_common.php' ?>   
   </body>
