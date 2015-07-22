@@ -207,7 +207,7 @@
               <h4>¿Por que no todos los workshops tienen el mismo precio</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
               Ratione omnis hic vel, error, reiciendis asperiores sequi 
-              eveniet ipsam mollitia esse. Doloremque blanditiis consectetur 
+              eveniet ipsam mollitia esse. Dolo remque blanditiis consectetur 
               facere voluptas eos, repellat qui facilis nesciunt.</p>
             </div>
             <div class="col-xs-4">

@@ -1,7 +1,8 @@
+<header id="main-header">
     <div class="container">
       <div class="row">
          <div class="col-xs-3">
-           <h1 id="main-logo"><a href="index.php">BELEROFONTE</a>Estudio Belerofonte</h1>
+           <h1 id="main-logo"><a href="index.php">BELEROFONTE <span>Estudio Belerofonte</span></a></h1>
          </div>
          <div class="col-xs-9">
             <ul id="main-menu" class="nav nav-pills">
@@ -20,3 +21,4 @@
          </div>
       </div>
     </div>
+</header><!--fin de header-->
