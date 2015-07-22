@@ -18,8 +18,8 @@
   </head>
   <body>
     <?php include 'inc/header.php'; ?>
-
-    <article id="w1-detail" class="detail">
+    <link rel="stylesheet" href="css/detail.css">
+    <article id="w1-detail" class="detail repare">
       <header>
         <div class="container">
           <div class="row">
@@ -86,7 +86,15 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
               Placeat et libero quis recusandae temporibus sunt magni, 
               beatae obcaecati fugiat officiis reprehenderit corporis.</p>
-              <div id="registration-bagde"></div>
+              <div id="registration-bagde">
+                <h3 class="price">99 $</h3>
+                <p class="include">
+                  workshop + <br>
+                  desayuno + <br>
+                  almuerzo   </p>
+                  <div class="clearfix"></div>
+                  <a href="#" class="do-register">ME APUNTO!</a>
+              </div>
             </section>   
             <section id="agenda">
               <h3>Agenda del Dia</h3>
@@ -114,7 +122,7 @@
         </div><!--fin de row principal-->
       </div><!--finde container-->
 
-      <secion class="table-of-contents">
+      <section id="table-of-contents">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -161,12 +169,15 @@
             </div><!--fin de col.xs.4-->
           </div><!--fin de row-->
         </div><!--fin de container-->
-      </secion>
+      </section>
       <section id="location-info">
         <!--mapa google -->
+        <div id="map-canvas">
+          
+        </div>
         <div class="container">
           <div class="row">
-            <div class="col-xs-5">
+            <div id='hotel-info' class="col-xs-5">
               <h3>Necesitas alojamiento?</h3>
               <div class="hotel">
                 <h4>Hitek Navbar 4*</h4>
@@ -235,5 +246,18 @@
       <?php include 'inc/footer.php'; ?>
     <!--include de los repositorios de bootstrap-->
     <?php include 'inc/footer_common.php' ?>   
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapProp = {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:8,
+          mapTypeId:google.maps.MapTypeId.ROADMAP,
+          scrollwheel:false
+        };
+        var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
   </body>
 </html>
